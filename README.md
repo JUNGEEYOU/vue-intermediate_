@@ -14,7 +14,7 @@ $ npm run serve
 
 ## 2-1. 프로젝트
 
-![project](./md/1.png)
+![project](./md/1.png){ width: 50%; }
 
 ## 2-2. 컴포넌트
 
