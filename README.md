@@ -13,8 +13,7 @@ $ npm run serve
 # 2. 프로젝트 소개 및 컴포넌트 설계
 
 ## 2-1. 프로젝트
-
-![project](./md/1.png){: width="100" height="100"}
+<img src="./md/1.png" width="40%" >
 
 ## 2-2. 컴포넌트
 
