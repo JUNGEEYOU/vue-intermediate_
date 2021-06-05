@@ -31,3 +31,4 @@ $ npm run serve
     - 반응형 웹(뷰포트): [https://www.w3schools.com/css/css_rwd_viewport.asp](https://www.w3schools.com/css/css_rwd_viewport.asp)
     - 아이콘(fontawesome): [https://fontawesome.com/](https://fontawesome.com/)
     - 구글 폰트(ubuntu): [https://fonts.google.com/specimen/Ubuntu](https://fonts.google.com/specimen/Ubuntu)
+3. 각 컴포넌트 구현
