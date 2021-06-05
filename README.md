@@ -23,3 +23,11 @@ $ npm run serve
 - TodoInput: 할일 타이핑하는 input
 - TodoList: 할일 리스트 - 완료 유무, 리스트 제거
 - TodoFooter: 모든 리스트를 없애는 버튼
+
+# 3. 프로젝트 구현 순서
+1. 컴포넌트 생성 
+2. 파비콘, 아이콘, 폰트, 반응형 태그 설정 
+    - 파비콘 생성: [https://www.favicon-generator.org/](https://www.favicon-generator.org/)
+    - 반응형 웹(뷰포트): [https://www.w3schools.com/css/css_rwd_viewport.asp](https://www.w3schools.com/css/css_rwd_viewport.asp)
+    - 아이콘(fontawesome): [https://fontawesome.com/](https://fontawesome.com/)
+    - 구글 폰트(ubuntu): [https://fonts.google.com/specimen/Ubuntu](https://fonts.google.com/specimen/Ubuntu)
