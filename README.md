@@ -23,6 +23,7 @@ $ npm run serve
 - TodoInput: 할일 타이핑하는 input
 - TodoList: 할일 리스트 - 완료 유무, 리스트 제거
 - TodoFooter: 모든 리스트를 없애는 버튼
+- TodoSentiment: 오늘의 기분 설정 - 커스텀 컴포넌트 
 
 # 3. 프로젝트 구현 순서
 1. 컴포넌트 생성 
