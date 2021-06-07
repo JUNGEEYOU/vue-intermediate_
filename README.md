@@ -34,6 +34,6 @@ $ npm run serve
     - 구글 폰트(ubuntu): [https://fonts.google.com/specimen/Ubuntu](https://fonts.google.com/specimen/Ubuntu)
 3. 각 컴포넌트 구현
 4. 애플리케이션 구조 개선하기 (vuex의 축소 구조)
- - App.vue: 해당 뷰에서 모두 데이터를 관리 - 컨테이너 컴포넌트 역할
- - 다른 컴포넌트: App.vue의 하위 컴포넌트 
- - 하위 <-> 상위 데이터를 전달하기 위해 emit과 props 사용 
+    - App.vue: 해당 뷰에서 모두 데이터를 관리 - 컨테이너 컴포넌트 역할
+    - 다른 컴포넌트: App.vue의 하위 컴포넌트 
+    - 하위 <-> 상위 데이터를 전달하기 위해 emit과 props 사용 
