@@ -38,4 +38,4 @@ $ npm run serve
     - 다른 컴포넌트: App.vue의 하위 컴포넌트 
     - 하위 <-> 상위 데이터를 전달하기 위해 emit과 props 사용 
 5. 사용자 경험 개선 
-  - 모달 추가: slot 사용법 : https://kr.vuejs.org/v2/examples/modal.html
+    - 모달 추가: slot 사용법 : https://kr.vuejs.org/v2/examples/modal.html
