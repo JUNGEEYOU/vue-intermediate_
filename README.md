@@ -39,3 +39,48 @@ $ npm run serve
     - 하위 <-> 상위 데이터를 전달하기 위해 emit과 props 사용 
 5. 사용자 경험 개선 
     - 모달 추가: slot 사용법 : https://kr.vuejs.org/v2/examples/modal.html
+    - 트랜지션 구현: https://vuejs.org/v2/guide/transitions.html#List-Entering-Leaving-Transitions
+
+6. ES6 
+ - ES6란? react, angular, vue에서 권고하는 언어 형식. ES5에 비해 문법이 간결함. 
+- ES5 특징 - 변수의 scope
+```javascript
+    var sum = 0;
+    for(var i = 1; i <= 5; i++){
+        sum = sum + i;
+    }
+    console.log(sum); // 15
+    console.log(i);  //6 var는 전역이라 접근이 가능 
+```
+
+- ES5 특징 - Hoisting
+    - 함수 선언식과 변수를 위한 메모리 공간을 위로 끌어올린다. 
+```javascript
+    var sum =5;    // 1
+    sum = sum + i;  // 4
+    function sumAll(){}   // 2
+    var i = 10;   // 3
+```
+ - babel: ES6 문법 > ES5 문법으로 변환하는 컴파일러. ES6의 기능을 지원하지 않는 브라우저가 있음. https://babeljs.io/ 
+    - const & let
+     - const: 한번 선언한 값에 대해서 변경할 수 없음(상수). 객체나 배열은 가능 
+        ```javascript
+        const a = {};
+        a.num = 10;
+        const b = [];
+        b.push(200);
+        const c = 10;
+        c = 20;
+        ```
+     - let: 한번 선언한 값에 대해서 다시 선언 못함. 재할당은 가능 
+        ```javascript
+        let sum = 0;
+        for (let i = 1; i <= 5; i++){
+            sum = sum + i;
+        }
+        console.log(sum);   // 10
+        console.log(i);    // i is not defined
+        ```
+    - Arrow Fuction
+    - Enhanced Object Literals
+    - Modules 
