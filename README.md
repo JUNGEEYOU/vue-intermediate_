@@ -105,7 +105,7 @@ $ npm run serve
             console.log(value);
         });
         ```
-    - Enhanced Object Literals(향상된 객체 리터럴): :fuction 제거 가능 
+    - Enhanced Object Literals(향상된 객체 리터럴): :fuction 제거 가능. 같은 속성명 축약 가능 
         ```javascript
             // ES5 메서드 정의
             var dictionary = {

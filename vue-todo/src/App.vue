@@ -54,11 +54,11 @@ export default {
     }
   },
   components: {
-    'TodoHeader' : TodoHeader,
-    'TodoInput' : TodoInput,
-    'TodoList' : TodoList,
-    'TodoSentiment': TodoSentiment,
-    'TodoFooter' : TodoFooter,
+    TodoHeader,
+    TodoInput,
+    TodoList,
+    TodoSentiment,
+    TodoFooter,
   }
 
 }
