@@ -81,6 +81,29 @@ $ npm run serve
         console.log(sum);   // 10
         console.log(i);    // i is not defined
         ```
-    - Arrow Fuction
+    - Arrow Fuction(화살표 함수): function 대신 => 로 설정한다. 
+        - babel 온라인 에디터 확인:  https://babeljs.io/repl/
+        ```javascript
+        // ES5 함수 정의 방식 
+        var sum = function(a, b) {
+            return a + b;
+        }
+        // ES6 함수 정의 방식 
+        var sum = (a, b) => {
+            return a + b;
+        }
+        ```
+        ```javascript
+        // ES5 함수 정의 방식 
+        var arr = [1, 2, 3];
+        arr.forEach(funtion(value) {
+            console.log(value);
+        });
+        // ES6 함수 정의 방식 
+        var arr = [1, 2, 3];
+        arr.forEach(value => {
+            console.log(value);
+        });
+        ```
     - Enhanced Object Literals
     - Modules 
