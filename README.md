@@ -105,7 +105,7 @@ $ npm run serve
             console.log(value);
         });
         ```
-    - Enhanced Object Literals(향상된 객체 리터럴): :fuction 제거 가능. 같은 속성명 축약 가능 
+    - Enhanced Object Literals(향상된 객체 리터럴): :fuction 제거 가능. 같은 속성명 축약 가능(하나로 가능) 
         ```javascript
             // ES5 메서드 정의
             var dictionary = {
@@ -123,4 +123,5 @@ $ npm run serve
             
             });
             ```
-    - Modules 
+    - Modules: 변수의 중복이나 재사용에 좋음 
+        - default: import 이름을 원하는 이름으로 부여 가능하도록 함.
