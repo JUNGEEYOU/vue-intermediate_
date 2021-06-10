@@ -105,5 +105,22 @@ $ npm run serve
             console.log(value);
         });
         ```
-    - Enhanced Object Literals
+    - Enhanced Object Literals(향상된 객체 리터럴): :fuction 제거 가능 
+        ```javascript
+            // ES5 메서드 정의
+            var dictionary = {
+                lookup: fuction() {
+                    // 함수 정의 
+                }
+            }
+            
+            // ES6 메서드 정의 
+            var dictionary = {
+                lookup() {
+                    // 함수 정의 
+                }
+            }
+            
+            });
+            ```
     - Modules 
