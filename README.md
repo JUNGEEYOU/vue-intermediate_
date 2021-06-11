@@ -125,3 +125,5 @@ $ npm run serve
             ```
     - Modules: 변수의 중복이나 재사용에 좋음 
         - default: import 이름을 원하는 이름으로 부여 가능하도록 함.
+# 4. Vuex - 상태 관리 라이브러리 
+1. vuex 설치 : https://vuex.vuejs.org/kr/installation.html
