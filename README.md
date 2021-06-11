@@ -131,4 +131,4 @@ $ npm run serve
     - state: data 
     - getters
     - mutations: state(data)를 변경하는 메소드. commit 명령어로 메소드 실행 
-    - actions 
+    - actions: 비동기 처리 로직 
