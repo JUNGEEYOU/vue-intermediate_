@@ -132,3 +132,11 @@ $ npm run serve
     - getters
     - mutations: state(data)를 변경하는 메소드. commit 명령어로 메소드 실행 
     - actions: 비동기 처리 로직 
+
+
+# 5. Vuex - 헬퍼 함수 
+- store에 있는 4가지 속성을 간편하게 코딩하는 방법 
+    - state -> mapState
+    - getters -> mapGetters
+    - mutations -> mapMutations
+    - actions -> mapActions    
